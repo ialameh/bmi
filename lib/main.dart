@@ -11,7 +11,6 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-
         primarySwatch: Colors.blue,
       ),
       home: AppHome(),
@@ -20,13 +19,20 @@ class MyApp extends StatelessWidget {
 }
 
 class AppHome extends StatelessWidget {
-  const AppHome({
-    Key key,
-  }) : super(key: key);
-
   @override
   Widget build(BuildContext context) {
-    return Text('Hi');
+    return Column(
+      children: <Widget>[
+        Container(
+          child: Text('data'),
+        ),
+        Container(
+          child: Text('data'),
+        ),
+        Container(
+          child: Text('data'),
+        ),
+      ],
+    );
   }
 }
-
