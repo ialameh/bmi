@@ -23,15 +23,9 @@ class AppHome extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: <Widget>[
-        Container(
-          child: Text('data'),
-        ),
-        Container(
-          child: Text('data'),
-        ),
-        Container(
-          child: Text('data'),
-        ),
+        Row(),
+        Row(),
+        Row(),
       ],
     );
   }
